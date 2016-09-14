@@ -1,5 +1,5 @@
 <?php
-$pasta = "/retorno/arquivos/";
+$pasta = "/FolhaPagBanrisul/arquivos/";
 $file = $_FILES["arquivo"];
 $nome = $pasta.$file["name"];
 
