@@ -5,7 +5,7 @@ $nome = $pasta.$file["name"];
 
 $check = false;
 
-$palavras_chave = array('PREFEITURA MUNICIPAL DE ARROIO', 'PREFEITURA MUNICIPAL DE ARROIOBANRISUL CONSIST', 'FUNDO DE APOSENTADORIA E PENSA');
+$palavras_chave = array('PREFEITURA MUNICIPAL', 'PREFEITURA MUNICIPAL DE BANRISUL CONSIST', 'FUNDO DE APOSENTADORIA E PENSA');
 $ext = pathinfo($file["name"], PATHINFO_EXTENSION);
 
 if(preg_match('/G0D/',$ext)){
